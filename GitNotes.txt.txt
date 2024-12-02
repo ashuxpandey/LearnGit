@@ -18,3 +18,5 @@ git add <file_name>	----> to add file to staging area
 git log 		----> to check the history of commit 	 
 git commit -m "First Commit"	-----> commit the file with message
 git commit -a -m "First Commit"	-----> commit without adding file to staging area
+git diff 		----> checking the difference
+git add GitNotes.txt.txt ----> add the difference to the staging area
