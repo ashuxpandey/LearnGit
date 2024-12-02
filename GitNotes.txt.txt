@@ -1,1 +1,19 @@
-Hello Git
+Git 
+	It is version control system
+
+Centralized Version Control System(CVCS)
+
+Distributed Version Control System
+	Having commit history in local machine
+
+to set new user
+
+	git config user.name "Your New Name"
+	git config user.email "e_mail"
+
+git init 		----> to initialise empty working dir
+git status		----> check the status of the dir
+git init -b main	----> initialise branch as main
+git add <file_name>	----> to add file to staging area
+git log 		----> to check the history of commit 	 
+git commit -m "First Commit"	-----> commit the file with message
