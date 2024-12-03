@@ -20,3 +20,29 @@ git commit -m "First Commit"	-----> commit the file with message
 git commit -a -m "First Commit"	-----> commit without adding file to staging area
 git diff 		----> checking the difference
 git add GitNotes.txt.txt ----> add the difference to the staging area
+git add . ----> to add multiple file to the staging area
+
+create a new repository on the command line
+	git branch -M main
+	git remote add origin <link to repo>
+	git push -u origin main
+
+push an existing repository from the command line
+	git remote add origin 	https://github.com/ashuxpandey/demo.git
+	git branch -M main
+	git push -u origin main
+
+git clone https://github.com/torvalds/linux.git	-----> to clone a git repo in your machine
+
+git remote -v		----> to get the link of remote repo
+
+Tags
+	annotated tag
+	git tag -a <tag_No> -m "1st release"
+ 
+git push origin v1.0 ----> to push tags
+
+
+
+
+
